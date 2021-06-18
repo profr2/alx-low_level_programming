@@ -1,18 +1,21 @@
 #include <stdio.h>
 /**
- * main - print if the number is postive, zero, or negative
- *
- * Description: using the main function
- * this program prints "Programming is positive, zero, or negative
+ * main - main block
+ * Description: Print all numbers of base 10, starting from 0.
+ * You are not allowed to use any variable of type char.
+ * You can only use `putchar` to print to console.
+ * You can only use `putchar` twice.
  * Return: 0
  */
 int main(void)
 {
-char c;
-for (c = '0'; c <= '9'; c++)
-{
-	putchar(c);
-}
-putchar('\n');
-return (0);
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+	}
+	putchar('\n');
+
+	return (0);
 }
