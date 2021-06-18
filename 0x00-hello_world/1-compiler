@@ -1,2 +1,3 @@
 #!/bin/bash
-0file=$(echo "$CFILE"|tr .c .o); gcc -c $CFILE -o $OFILE
+gcc -S $CFILE >> o
+
