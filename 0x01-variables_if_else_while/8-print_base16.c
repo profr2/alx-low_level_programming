@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 /**
  * main - print if the number is postive, zero, or negative
  *
@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-int i;
+char c;
 for (c = '0'; c <= '9'; c++)
 {
 	putchar(c);
